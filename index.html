@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body">
+    <h1 id="mainhead">BMI Calculator</h1>
+    <hr />
+    <p id="exText">
+      Body Mass Index (BMI) is a calculation that estimates body fat based on
+      height and weight. It's used to categorize individuals into weight
+      categories like underweight, normal weight, overweight, and obese. The
+      formula is BMI = kg/m², where kg is weight in kilograms and m² is height
+      in meters squared. The formula changes according to the units.
+    </p>
+    <hr class="small">
+    <img src="img/good.png" alt="bmistuff" id="bmiCriteria">
+    
+    
+    
+    <div id="calCon">
+    <h3 id="inHead">Your BMI</h3>
+  
+    <br>
+    <span id="weSpan">
+        Weight:<input type="number" id="weIn" placeholder="Your weight in kg">
+        
+    </span>
+    <br><br>
+    <span id="heSpan">
+        Height:<input type="number" id="heIn" placeholder="Your height in meters">
+    </span> <br>
+    <button id="calBtn">Compute BMI</button> <br><br><br><br>
+    
+    
+    <span id="outHead">BMI: <span id="outPut">_______</span></span>
+    
+</div>
+<br>
+<hr class="small">
+<span id="modeSpan">
+<img src="img/darkmode.jpg" alt="Dark-Mode" id="darkmodeimg">
+</span>
+<span id="mode2Span">
+  <img src="img/lightmode.jpg" alt="lightmode" id="lightmodeimg">
+</span>
+  </body>
+</html>
